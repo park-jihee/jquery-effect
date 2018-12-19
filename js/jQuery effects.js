@@ -1,0 +1,31 @@
+$(function(){
+    $('.hide').click(function(){
+        $('.pic1').hide(1000)
+    })
+    $('.show').click(function(){
+        $('.pic1').show('fast')
+    })
+    $('.toggle').click(function(){
+        $('.pic1').toggle()
+    })
+/*-------------------------------------*/	
+    $('.fadein').click(function(){
+        $('.pic2').fadeIn(1000)
+    })
+    $('.fadeout').click(function(){
+        $('.pic2').fadeOut('fast')
+    })
+    $('.togglefade').click(function(){
+        $('.pic2').fadeToggle()
+    })
+/*-------------------------------------*/	
+    $('.slideup').click(function(){
+        $('.pic3').slideUp(1000)
+    })
+    $('.slidedown').click(function(){
+        $('.pic3').slideDown('fast')
+    })
+    $('.slidetoggle').click(function(){
+        $('.pic3').slideToggle()
+    })	
+})//function

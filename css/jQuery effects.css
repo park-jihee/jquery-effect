@@ -1,0 +1,28 @@
+*{ box-sizing: border-box; margin: 0; padding: 0;}
+table{
+	border-collapse:collapse;
+	width: 500px;
+	height: 630px;
+	margin: 0 auto;
+}
+img{
+	width: 400px;
+	height: 210px;
+}
+.one a{
+	color: #b082b1;
+}
+.two a{
+	color: #70c8a0;
+}
+.three a{
+	color: #f8b88c;
+}
+a{
+	width: 100px;
+	height: 70px;
+	text-align:center;
+	display: inline-block;
+	line-height: 70px;
+	text-decoration: none;
+}
